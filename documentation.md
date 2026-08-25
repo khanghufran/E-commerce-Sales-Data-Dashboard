@@ -17,8 +17,6 @@ The project involved:
 - Performing regional analysis
 - Creating an interactive Excel sales dashboard
 
----
-
 ## 2. Preserving the Raw Data
 
 The original sales dataset was preserved without modification.
@@ -26,8 +24,6 @@ The original sales dataset was preserved without modification.
 A copy of the entire dataset was created, and all preparation, formatting, organization, and analysis activities were performed using the copied dataset.
 
 This ensured that the original source data remained available for reference throughout the project.
-
----
 
 ## 3. Dataset Structure
 
@@ -53,8 +49,6 @@ The original dataset contained the following fields:
 
 The original dataset contained multiple types of information in a single large table.
 
----
-
 ## 4. Initial Data Preparation
 
 ### 4.1 Adjusting Row and Column Dimensions
@@ -62,8 +56,6 @@ The original dataset contained multiple types of information in a single large t
 The widths of rows and columns were adjusted according to the content within the cells.
 
 This improved readability and made the dataset easier to review.
-
----
 
 ## 5. Splitting the Dataset into Structured Tables
 
@@ -91,8 +83,6 @@ The fields include:
 - Shipping Cost
 - Profit Margin
 
----
-
 ### 5.2 Product Table
 
 The **Product Table** contains product-related information.
@@ -103,8 +93,6 @@ The fields include:
 - Category
 
 This separated product information from order-specific information.
-
----
 
 ### 5.3 Customer Table
 
@@ -118,15 +106,11 @@ The fields include:
 
 Separating customer information from order information improved accessibility and made the dataset easier to search and manage.
 
----
-
 ## 6. Data Validation and Formatting
 
 Because the dataset was already relatively clean, the main preparation work focused on formatting the fields correctly and rechecking calculated values.
 
 The Total Amount, Shipping Cost, and Profit Margin fields were reviewed to ensure that their values were correctly calculated based on the relevant sales information.
-
----
 
 ### 6.1 Numeric Fields
 
@@ -141,15 +125,11 @@ The following fields were converted into **Number** format with two decimal plac
 
 Two decimal places were retained because the source data contained prices, discounts, and financial values with this level of precision.
 
----
-
 ### 6.2 Order Date
 
 The Order Date field was converted into **Date** format.
 
 This allowed the date field to be used appropriately for subsequent analysis, including time-based sales analysis.
-
----
 
 ## 7. Table Identification and Usability Improvements
 
@@ -158,8 +138,6 @@ Large-font headings were added above the respective tables to clearly communicat
 The first two rows were also frozen to keep important headings visible while scrolling through the data.
 
 These changes improved the readability and usability of the workbook.
-
----
 
 ## 8. Order ID Finder Table
 
@@ -171,23 +149,17 @@ The finder table contains the available fields of the order as rows, while the c
 
 The finder table label and first input cell were frozen to make the lookup functionality easier to use while navigating the worksheet.
 
----
-
 ### 8.1 VLOOKUP
 
 Excel's `VLOOKUP` function was used to retrieve information associated with the entered Order ID.
 
 This allowed the finder to dynamically return the relevant order information without requiring the user to manually search through the entire dataset.
 
----
-
 ### 8.2 IFERROR
 
 `IFERROR` was also used to provide error handling.
 
 This prevents lookup errors from being displayed when an Order ID cannot be found or when the lookup does not return a valid result.
-
----
 
 # 9. Data Analysis Reports
 
@@ -198,8 +170,6 @@ The analysis was divided into:
 1. Exploratory Data Analysis
 2. Profitability Data Analysis
 3. Regional Data Analysis
-
----
 
 # 10. Exploratory Data Analysis
 
@@ -212,8 +182,6 @@ An **Exploratory Data Analysis** workbook was created to explore the prepared da
 - Conditional formatting
 
 The purpose was to use the prepared sales data to identify patterns and answer business-related questions.
-
----
 
 ## 10.1 Questions Addressed by the Exploratory Analysis
 
@@ -239,8 +207,6 @@ The analysis was used to answer the following questions:
 
 10. What was the most commonly used payment method?
 
----
-
 # 11. Profitability Data Analysis
 
 A separate **Profitability Data Analysis** workbook was created to focus specifically on questions related to sales and profit.
@@ -263,8 +229,6 @@ Profit was analyzed across product categories to determine which categories gene
 
 Profit was also analyzed across regions to identify which regions contributed most to overall profitability.
 
----
-
 # 12. Regional Data Analysis
 
 A separate **Regional Data Analysis** workbook was created to examine sales activity across different regions.
@@ -283,8 +247,6 @@ The analysis addressed the following questions:
 
 This analysis provided a region-focused view of sales activity, profitability, customer purchasing behavior, and payment-method usage.
 
----
-
 # 13. Interactive Sales Dashboard
 
 An interactive **Sales Dashboard** was created in Microsoft Excel to provide a consolidated visual representation of the prepared sales data.
@@ -298,8 +260,6 @@ The dashboard uses Excel's interactive filtering functionality, including:
 - **Timeline**
 
 These controls allow the user to filter the dashboard and dynamically explore the underlying sales information.
-
----
 
 ## 13.1 Dashboard KPI Section
 
@@ -326,8 +286,6 @@ The Net Sales metric is calculated as:
 
 These KPIs provide a concise summary of the overall sales and profitability performance.
 
----
-
 ## 13.2 Dashboard Visualization Section
 
 The second section of the dashboard contains visualizations designed to make patterns in the sales data easier to understand.
@@ -344,8 +302,6 @@ The visual analysis covers areas such as:
 
 The visualizations respond to the dashboard's interactive filters, allowing the user to explore different segments of the dataset.
 
----
-
 # 14. Dashboard PDF Summary
 
 A PDF version of the sales dashboard was also created.
@@ -353,8 +309,6 @@ A PDF version of the sales dashboard was also created.
 The PDF provides a consolidated view of the overall dashboard and serves as a static summary of the analysis and visual reporting.
 
 The Excel workbook remains the interactive version of the dashboard, while the PDF provides a convenient non-interactive representation of the final dashboard.
-
----
 
 # 15. Final Outcome
 
