@@ -186,14 +186,12 @@ The dashboard includes slicers and a timeline for interactive filtering and expl
 - Data cleaning
 - Data organization
 - Data validation
-- Exploratory Data Analysis
 - KPI development
 - Profitability analysis
 - Regional analysis
 - Category analysis
 - Pivot-based analysis
 - Dashboard reporting
-- Exploratory Data Analysis
 - Business-oriented data presentation
 
 ---
@@ -202,7 +200,7 @@ The dashboard includes slicers and a timeline for interactive filtering and expl
 
 - Microsoft Excel
 - Excel Tables
-- Pivot Tables / Pivot-based analysis
+- Pivot Tables
 - Excel Slicers
 - Timeline
 - Excel Dashboard
@@ -226,7 +224,7 @@ Ecommerce-Sales-Data-Dashboard/
 │   └── sales_dashboard.pdf
 │
 ├── Reports/
-│   ├── exploratory_data_analysis.xlsx
+│   ├── pivot_based_analysis.xlsx
 │   ├── profitability_data_analysis.xlsx
 │   └── regional_data_analysis.xlsx
 │
